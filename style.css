@@ -1,0 +1,21 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+header
+{
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.326);
+    justify-content: space-between;
+}
+
+.logo
+{
+    margin: 10px;
+}
+.logo img{
+    width: 7%;
+    margin-left: 160px;
+}
