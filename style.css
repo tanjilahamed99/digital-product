@@ -16,20 +16,76 @@ header
 {
     margin: 20px 10px 10px 10px;
 }
-.logo img{
+
+.logo img
+{
     width: 20%;
     margin-left: 160px;
 }
-.nav{
+
+.nav
+{
     margin: 10px;
     padding: 10px;
 }
-.ul{
+
+.ul
+{
     list-style: none;
     display: flex;
     margin-right: 180px;
 }
-li{
-    padding: 5px 20px 5px 20px ;
+
+li
+{
+    padding: 5px 20px 5px 20px;
     font-size: 18px;
+}
+
+/* info */
+.info
+{
+    height: 650px;
+    display: flex;
+    background-color: black;
+    align-items: center;
+}
+
+.info-text h1
+{
+    font-size: 54px;
+    font-weight: bold;
+    color: white;
+}
+
+.info-text
+{
+    margin: 10px 0px 10px 120px;
+}
+
+.info-text p
+{
+    color: white;
+    font-size: 18px;
+    margin: 20px 0 15px 0;
+}
+
+.info-text .btn
+{
+    color: white;
+    font-size: 18px;
+    background-color: red;
+    padding: 5px;
+    border-radius: 2px;
+}
+
+.info-text,
+.info-logo
+{
+    width: 50%;
+}
+
+.info-logo img
+{
+    width: 30%;
 }
