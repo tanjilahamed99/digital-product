@@ -90,3 +90,24 @@ li
     width: 70%;
     margin-left: 70px;
 }
+
+.about h1
+{
+    font-size: 50px;
+    color: black;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.about-con
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.about-img img
+{
+    width: 70%;
+    margin:20px 0 0 160px;
+}
