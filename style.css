@@ -124,11 +124,13 @@ li
     font-size: 1.5rem;
     margin: 10px;
 }
+
 .about-text p
 {
     font-size: 1rem;
     margin: 10px;
 }
+
 .about-text .btn
 {
     font-size: 1rem;
@@ -137,23 +139,31 @@ li
     border-radius: 5px;
     padding: 10px;
 }
+
 /* service */
-.service{
+.service
+{
     background-color: black;
     color: white;
     margin-top: 20px;
 }
-.service-tittle{
+
+.service-tittle
+{
     text-align: center;
     font-size: 50px;
     padding-top: 50px;
 }
-.sarvice-container{
+
+.sarvice-container
+{
     display: flex;
     justify-content: space-around;
-    margin-top:10px;
+    margin-top: 10px;
 }
-.card{
+
+.card
+{
     width: 200px;
     height: 280px;
     padding: 15px;
@@ -161,18 +171,26 @@ li
     box-shadow: 4px 2px 105px gray;
     border-radius: 10px;
 }
-.service-img{
+
+.service-img
+{
     width: 70px;
     border-radius: 10px;
     margin-top: 5px;
 }
-.ser-tittle{
+
+.ser-tittle
+{
     padding: 10px;
 }
-.service-desc{
+
+.service-desc
+{
     margin-bottom: 10px;
 }
-.service-btn{
+
+.service-btn
+{
     margin-top: 20px;
     padding: 13px 20px;
     outline: none;
@@ -180,4 +198,53 @@ li
     border: none;
     background-color: black;
     color: white;
+}
+
+/* foot */
+.foot
+{
+    background-color: black;
+    color: white;
+}
+
+.foot-container
+{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 100px;
+}
+
+.foot-left,
+.foot-right
+{
+    display: flex;
+    gap: 100px;
+}
+
+.foot-con img
+{
+    width: 180px;
+    margin: 10px 0;
+    margin-top: 0;
+}
+#tittle{
+    margin-bottom: 15px;
+}
+.foot-con p
+{
+    line-height: 30px;
+    margin: 0 0 5px 0;
+}
+
+hr
+{
+    width: 80%;
+    margin: 60px auto;
+    margin-bottom: 40px;
+}
+
+.copyright
+{
+    text-align: center;
+    padding-bottom: 30px;
 }
