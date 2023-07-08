@@ -70,7 +70,8 @@ li
     margin: 20px 0 15px 0;
 }
 
-.info-text .btn
+.info-text .btn,
+.btn
 {
     color: white;
     font-size: 18px;
@@ -109,5 +110,29 @@ li
 .about-img img
 {
     width: 70%;
-    margin:20px 0 0 160px;
+    margin: 20px 0 0 160px;
+}
+
+.about-text
+{
+    margin: 0 0 50px 400px;
+}
+
+.about-text h2
+{
+    font-size: 1.5rem;
+    margin: 10px;
+}
+.about-text p
+{
+    font-size: 1rem;
+    margin: 10px;
+}
+.about-text .btn
+{
+    font-size: 1rem;
+    margin: 5px 10px;
+    border: 0;
+    border-radius: 5px;
+    padding: 10px;
 }
